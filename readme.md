@@ -1,7 +1,7 @@
 # README
 
-This repository stores jupyter notebooks of lab sessions of nptel course "Deep learning for visual computing" by Prof. Debdoot Sheet, IIT Kharagpur.
+Some deep learning projects using pytorch, mainly focused on computer vision.
 
 ## References
 
-[Official Github repository of lab sessions](https://github.com/iitkliv/dlvcnptel)
+1. [Deep learning for visual computing NPTEL course by Dr Debdoot Sheet, IIT Karagpur](https://github.com/iitkliv/dlvcnptel)
