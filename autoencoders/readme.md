@@ -21,10 +21,18 @@ Autoencoders can also be used for removing noise in an image. This can be done b
 
 [Denoising autoencoder Jupyter notebook](./denoising_autoencoder.ipynb)
 
-Convolutional layers can be used instead of linear layers to form convolutional denoising autoencoders.
+Convolutional layers can be used instead of fully connected layers to form convolutional denoising autoencoders.
 
 ![Convolutional denoising autoencoder example](../Documents/Images/convolutional_denoising_autoencoder_example.png)
 
 [Convolution denoising autoencoder Jupyter notebook](./convolutional_denoising_autoencoder.ipynb)
+
+## Sparse autoencoders
+
+![Sparse autoencoder example](../Documents/Images/sparse_autoencoder_example.ipynb)
+
+[Sparse autoencoder Jupyter notebook](./sparse_autoencoder.ipynb)
+
+---
 
 # References
