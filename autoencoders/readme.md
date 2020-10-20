@@ -29,9 +29,15 @@ Convolutional layers can be used instead of fully connected layers to form convo
 
 ## Sparse autoencoders
 
-![Sparse autoencoder example](../Documents/Images/sparse_autoencoder_example.ipynb)
+Sparsity (high number of zero activations) can be forced into an autoencoder by adding a penality term to the loss function. This is the L1 norm value (sum of magnitudes) of weights in the activation layer. This works by encouraging the neural network to learn more specialised encodings, i.e, having the encodings be more representative and useful, by removing unnecessary noisy activations. This is used in the autoencoder classification example. Comparison:
 
-[Sparse autoencoder Jupyter notebook](./sparse_autoencoder.ipynb)
+Confusion matrix without sparsity
+![no sparse accuracy](../Documents/Images/autoencoder_nosparse_acc.png)
+
+Confusion matrix with sparcity
+![sparse accutacy](../Documents/Images/autoencoder_sparse_acc.png)
+
+- Normalised row-wise
 
 ---
 
