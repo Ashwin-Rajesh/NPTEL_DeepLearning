@@ -8,10 +8,11 @@ Some deep learning projects using pytorch, mainly focused on computer vision. Mo
 - Editor
   - Visual studio code + [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Libraries / frameworks
-  - Anaconda 4.8
-  - Python 3.7
+  - Anaconda 4.9.1
+  - Python 3.8.3
   - [Pytorch](https://pytorch.org/) 1.5.0
-  - Cuda 10.2
+  - Cuda 11
+  - OpenAI 
 - Hardware (for comparing training time)
   - Nvidia GTX 1660Ti mobile
   - Intel core i7 9750H
